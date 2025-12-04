@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.kurs-box {
+    background-color: rgb(31, 31, 27);
+    border: 2px solid #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .kurs-box {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+}

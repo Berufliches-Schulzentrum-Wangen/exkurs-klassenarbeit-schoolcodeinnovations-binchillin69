@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+    /*Schriftart*/
+    font-family: Arial, sans-serif;
+    /*Hintergrund- und Textfarbe*/
+    background-color: #f00707;
+    /*Textfarbe*/
+    color: #333;
+    /*Außenabstand*/
+    margin: 0;
+    /*Innenabstand*/
+    padding: 0;
+}
+
+.kurs-box {
+    /*Hintergrundfarbe*/
+    background-color: white;
+    /*Rahmen*/
+    border: 2px solid #ddd;
+    /*Innenabstand*/
+    padding: 20px;
+    /*Außenabstand unten*/
+    margin-bottom: 15px;
+    /*Abgerundete Ecken*/
+    border-radius: 8px;
+    /*Schatteneffekt*/
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
